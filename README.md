@@ -14,7 +14,31 @@ A Java-based chat system where multiple clients can connect to a server and exch
 - Multithreading
 - OOP
 
-## How to Run
+---
+
+## ⚙️ How to Run
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Adarsh0248/ChatApp.git
+cd ChatApp
 1. Compile the code:
    ```bash
    javac src/*.java
+```
+2.Start the server
+```bash
+  java -cp src ChatServer
+```
+3.Run Clients
+```bash
+  java -cp src ChatClient
+```
+4. Start Chatting 🎉
+
+Type a message in any client → it gets broadcast to all connected clients.
+
+Server console shows logs of connected/disconnected clients.
+
+
+
