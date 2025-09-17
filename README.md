@@ -6,6 +6,7 @@ A Java-based chat system where multiple clients can connect to a server and exch
 - Multi-client support using TCP sockets
 - Concurrent server using multithreading
 - Broadcast messages to all clients
+- Send Direct Private Messages to Clients on the server
 - Console-based interface
 
 ## Tech Stack
